@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		528FC3AA1FC8FEFE0097CEA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528FC3A91FC8FEFE0097CEA3 /* AppDelegate.swift */; };
-		528FC3AC1FC8FEFE0097CEA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528FC3AB1FC8FEFE0097CEA3 /* ViewController.swift */; };
-		528FC3AF1FC8FEFE0097CEA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 528FC3AD1FC8FEFE0097CEA3 /* Main.storyboard */; };
+		528FC3AC1FC8FEFE0097CEA3 /* FighterListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528FC3AB1FC8FEFE0097CEA3 /* FighterListViewController.swift */; };
 		528FC3B11FC8FEFE0097CEA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 528FC3B01FC8FEFE0097CEA3 /* Assets.xcassets */; };
-		528FC3B41FC8FEFE0097CEA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 528FC3B21FC8FEFE0097CEA3 /* LaunchScreen.storyboard */; };
+		528FC3BC1FC8FFB00097CEA3 /* FighterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528FC3BB1FC8FFB00097CEA3 /* FighterListView.swift */; };
+		528FC3BE1FC907C20097CEA3 /* Transformers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528FC3BD1FC907C20097CEA3 /* Transformers.swift */; };
+		52BA46411FC93D9200EFE74E /* AddFighterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BA46401FC93D9200EFE74E /* AddFighterViewController.swift */; };
+		52BA46431FC9430B00EFE74E /* AddFighterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BA46421FC9430B00EFE74E /* AddFighterView.swift */; };
+		52BA46471FC950AB00EFE74E /* TCStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BA46461FC950AB00EFE74E /* TCStepper.swift */; };
+		52BA46491FCA32B900EFE74E /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BA46481FCA32B900EFE74E /* ResultViewController.swift */; };
+		52BA464B1FCA32CC00EFE74E /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BA464A1FCA32CB00EFE74E /* ResultView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		528FC3A61FC8FEFE0097CEA3 /* TransformerCompany.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransformerCompany.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		528FC3A91FC8FEFE0097CEA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		528FC3AB1FC8FEFE0097CEA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		528FC3AE1FC8FEFE0097CEA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		528FC3AB1FC8FEFE0097CEA3 /* FighterListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FighterListViewController.swift; sourceTree = "<group>"; };
 		528FC3B01FC8FEFE0097CEA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		528FC3B31FC8FEFE0097CEA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		528FC3B51FC8FEFE0097CEA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		528FC3BB1FC8FFB00097CEA3 /* FighterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FighterListView.swift; sourceTree = "<group>"; };
+		528FC3BD1FC907C20097CEA3 /* Transformers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transformers.swift; sourceTree = "<group>"; };
+		52BA46401FC93D9200EFE74E /* AddFighterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFighterViewController.swift; sourceTree = "<group>"; };
+		52BA46421FC9430B00EFE74E /* AddFighterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFighterView.swift; sourceTree = "<group>"; };
+		52BA46461FC950AB00EFE74E /* TCStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCStepper.swift; sourceTree = "<group>"; };
+		52BA46481FCA32B900EFE74E /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		52BA464A1FCA32CB00EFE74E /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,43 @@
 		528FC3A81FC8FEFE0097CEA3 /* TransformerCompany */ = {
 			isa = PBXGroup;
 			children = (
+				52BA46451FC9503D00EFE74E /* Model */,
+				52BA464C1FCB522C00EFE74E /* Shared */,
+				52BA46441FC9501B00EFE74E /* User Interface */,
 				528FC3A91FC8FEFE0097CEA3 /* AppDelegate.swift */,
-				528FC3AB1FC8FEFE0097CEA3 /* ViewController.swift */,
-				528FC3AD1FC8FEFE0097CEA3 /* Main.storyboard */,
 				528FC3B01FC8FEFE0097CEA3 /* Assets.xcassets */,
-				528FC3B21FC8FEFE0097CEA3 /* LaunchScreen.storyboard */,
 				528FC3B51FC8FEFE0097CEA3 /* Info.plist */,
 			);
 			path = TransformerCompany;
+			sourceTree = "<group>";
+		};
+		52BA46441FC9501B00EFE74E /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				52BA46421FC9430B00EFE74E /* AddFighterView.swift */,
+				52BA46401FC93D9200EFE74E /* AddFighterViewController.swift */,
+				528FC3BB1FC8FFB00097CEA3 /* FighterListView.swift */,
+				528FC3AB1FC8FEFE0097CEA3 /* FighterListViewController.swift */,
+				52BA464A1FCA32CB00EFE74E /* ResultView.swift */,
+				52BA46481FCA32B900EFE74E /* ResultViewController.swift */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		52BA46451FC9503D00EFE74E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				528FC3BD1FC907C20097CEA3 /* Transformers.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52BA464C1FCB522C00EFE74E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				52BA46461FC950AB00EFE74E /* TCStepper.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +162,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				528FC3B41FC8FEFE0097CEA3 /* LaunchScreen.storyboard in Resources */,
 				528FC3B11FC8FEFE0097CEA3 /* Assets.xcassets in Resources */,
-				528FC3AF1FC8FEFE0097CEA3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,31 +173,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				528FC3AC1FC8FEFE0097CEA3 /* ViewController.swift in Sources */,
+				528FC3AC1FC8FEFE0097CEA3 /* FighterListViewController.swift in Sources */,
+				52BA46471FC950AB00EFE74E /* TCStepper.swift in Sources */,
+				52BA464B1FCA32CC00EFE74E /* ResultView.swift in Sources */,
+				528FC3BE1FC907C20097CEA3 /* Transformers.swift in Sources */,
+				52BA46491FCA32B900EFE74E /* ResultViewController.swift in Sources */,
 				528FC3AA1FC8FEFE0097CEA3 /* AppDelegate.swift in Sources */,
+				52BA46411FC93D9200EFE74E /* AddFighterViewController.swift in Sources */,
+				52BA46431FC9430B00EFE74E /* AddFighterView.swift in Sources */,
+				528FC3BC1FC8FFB00097CEA3 /* FighterListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		528FC3AD1FC8FEFE0097CEA3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				528FC3AE1FC8FEFE0097CEA3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		528FC3B21FC8FEFE0097CEA3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				528FC3B31FC8FEFE0097CEA3 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		528FC3B61FC8FEFE0097CEA3 /* Debug */ = {
